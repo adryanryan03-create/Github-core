@@ -1,14 +1,20 @@
 {
-  "compilerOptions": {
-    "target": "ES2023",
-    "lib": ["ES2023"],
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "allowImportingTsExtensions": true,
-    "noEmit": true,
-    "strict": true,
-    "skipLibCheck": true,
-    "types": ["node"]
-  },
-  "include": ["*.ts"]
+    // This project is never compiled to JavaScript: Node 22 runs the .ts
+    // files directly by stripping their types. The settings below exist so
+    // editors and type checking agree with that runtime — modern ECMAScript,
+    // Node-style module resolution, explicit .ts extensions on imports, and
+    // no emit, ever.
+    "compilerOptions": {
+        "target": "ES2022",
+        "lib": [ "ES2022" ],
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "allowImportingTsExtensions": true,
+        "noEmit": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [ "*.ts" ]
 }
