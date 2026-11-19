@@ -1,5 +1,7 @@
 # github-core-clone-01 — a GitHub-compatible forge in one Node process
 
+[![make.fun bounty: github-core-clone-01](https://make.fun/badge/github-core-clone-01.svg)](https://make.fun/bounty/github-core-clone-01) [![make.fun rank](https://make.fun/badge/github-core-clone-01/adryanryan03-create/Github-core/rank.svg)](https://make.fun/bounty/github-core-clone-01) [![make.fun reward](https://make.fun/badge/github-core-clone-01/adryanryan03-create/Github-core/reward.svg)](https://make.fun/bounty/github-core-clone-01)
+
 A standalone git forge that speaks GitHub's surfaces from its own in-memory store, built for
 [the contest](https://make.fun/bounty/github-core-clone-01): git smart HTTP (clone/push over
 protocol v0 and v2, including shallow fetch), the REST v3 resources, GraphQL v4, and an MCP
